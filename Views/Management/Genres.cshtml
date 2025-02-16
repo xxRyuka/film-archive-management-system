@@ -1,0 +1,45 @@
+@model IEnumerable<EFC.Data.Genre>
+
+@{
+    Layout = "_Layout2";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/utility.css " asp-append-version="true">
+}
+
+
+
+<div class="text-center mt-5">
+
+    <a class="btn bg-purp px-5 py-3" asp-controller="Genre" asp-action="create">Add Genre</a>
+</div>
+<div class="container text-white p-5">
+    <table class="table table-active fw-bold">
+        <thead class="text-white">
+            <tr>
+                <th style="width: 80px;" scope="col">#</th>
+                <th style="width: 120px;" scope="col">Name</th>
+                <th style="width: 120px;" scope="col">Description</th>
+                <th style="width: 120px;" scope="col">Color</th>
+                    <th style="width: 120px;" scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="text-white">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.GenreId</th>
+                    <td>@item.Name</td>
+                    <td>@item.Description</td>
+                    <td><span style="background-color: @item.Color; min-width: 50px;" class="badge p-2  category-text">@item.Color</span></td>
+                   
+                    <td>
+                        <a asp-controller="Genre" asp-action="Edit" class="btn bg-navyblue p-1 mx-2"
+                            asp-route-id="@item.GenreId">Details</a>
+                        <a asp-controller="Genre" asp-action="Delete" class="btn btn-danger p-1" asp-route-id="@item.GenreId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

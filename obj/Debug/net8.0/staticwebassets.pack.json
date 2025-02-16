@@ -1,0 +1,517 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\EFC.bundle.scp.css",
+      "PackagePath": "staticwebassets\\EFC.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\css\\utility.css",
+      "PackagePath": "staticwebassets\\css\\utility.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\06a427c4-8e10-4aaa-9a25-dd4888d46b92.jpg",
+      "PackagePath": "staticwebassets\\img\\06a427c4-8e10-4aaa-9a25-dd4888d46b92.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\1.jpg",
+      "PackagePath": "staticwebassets\\img\\1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\19c80f9a-db57-4728-9d03-07142ab237db.jpg",
+      "PackagePath": "staticwebassets\\img\\19c80f9a-db57-4728-9d03-07142ab237db.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\1df14e4f-f129-4184-a6f6-5bdc0fec575b.jpg",
+      "PackagePath": "staticwebassets\\img\\1df14e4f-f129-4184-a6f6-5bdc0fec575b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\200a441f-7253-4ccf-ac52-227a72797bee.jpg",
+      "PackagePath": "staticwebassets\\img\\200a441f-7253-4ccf-ac52-227a72797bee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\232c7c0a-ef28-4b40-b0aa-ab5b255c8766.jpg",
+      "PackagePath": "staticwebassets\\img\\232c7c0a-ef28-4b40-b0aa-ab5b255c8766.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\2b147ae7-a140-4dfa-accc-97448801779a.png",
+      "PackagePath": "staticwebassets\\img\\2b147ae7-a140-4dfa-accc-97448801779a.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\2e56f764-e982-475e-a924-e74445467ebc.jpg",
+      "PackagePath": "staticwebassets\\img\\2e56f764-e982-475e-a924-e74445467ebc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\3eb1137f-96c7-4769-ad31-211ccbc70c00.jpg",
+      "PackagePath": "staticwebassets\\img\\3eb1137f-96c7-4769-ad31-211ccbc70c00.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\4135fca3-797f-48fc-a305-7b2b902fa3c9.jpg",
+      "PackagePath": "staticwebassets\\img\\4135fca3-797f-48fc-a305-7b2b902fa3c9.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\422993ab-807e-4ce8-8530-2b34596647f0.png",
+      "PackagePath": "staticwebassets\\img\\422993ab-807e-4ce8-8530-2b34596647f0.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\423f2d90-e488-47f7-8aab-e30cdee53a12.jpg",
+      "PackagePath": "staticwebassets\\img\\423f2d90-e488-47f7-8aab-e30cdee53a12.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\44b38f57-cec9-4bf6-80f0-d9022051924a.png",
+      "PackagePath": "staticwebassets\\img\\44b38f57-cec9-4bf6-80f0-d9022051924a.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\47ffec7f-3b94-4bb9-bb5f-126192585756.png",
+      "PackagePath": "staticwebassets\\img\\47ffec7f-3b94-4bb9-bb5f-126192585756.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\4866a8cc-f27c-4bb3-9c1a-24d148de6836.png",
+      "PackagePath": "staticwebassets\\img\\4866a8cc-f27c-4bb3-9c1a-24d148de6836.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\49465e31-ace7-4958-b73b-efce3fa76b0d.jpg",
+      "PackagePath": "staticwebassets\\img\\49465e31-ace7-4958-b73b-efce3fa76b0d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\5.jpg",
+      "PackagePath": "staticwebassets\\img\\5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\55f6edc2-073b-461e-acf0-b9aceed0349d.jpg",
+      "PackagePath": "staticwebassets\\img\\55f6edc2-073b-461e-acf0-b9aceed0349d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\5aed2213-5396-466f-93a4-1a1169ea343a.jpg",
+      "PackagePath": "staticwebassets\\img\\5aed2213-5396-466f-93a4-1a1169ea343a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\5bc2013f-fbfb-4123-8442-c8d0d2463f60.jpg",
+      "PackagePath": "staticwebassets\\img\\5bc2013f-fbfb-4123-8442-c8d0d2463f60.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\5f9a7d08-6103-4fd3-8c4b-8a7c5c788acc.jpg",
+      "PackagePath": "staticwebassets\\img\\5f9a7d08-6103-4fd3-8c4b-8a7c5c788acc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\6.jpg",
+      "PackagePath": "staticwebassets\\img\\6.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\6b09a2fc-b583-42bc-8104-b19d5e296a38.jpg",
+      "PackagePath": "staticwebassets\\img\\6b09a2fc-b583-42bc-8104-b19d5e296a38.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\71e5b102-f8cc-4178-8b1e-779a5e5b6d30.jpg",
+      "PackagePath": "staticwebassets\\img\\71e5b102-f8cc-4178-8b1e-779a5e5b6d30.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\745d6a5e-28b6-4a4b-8b6d-7c65aee20802.jpg",
+      "PackagePath": "staticwebassets\\img\\745d6a5e-28b6-4a4b-8b6d-7c65aee20802.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\7a8c6b9a-2eea-4496-b3ec-c15f64f48ba5.jpg",
+      "PackagePath": "staticwebassets\\img\\7a8c6b9a-2eea-4496-b3ec-c15f64f48ba5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\7e8e7b17-49d6-4b28-9e8e-3f9378872428.jpg",
+      "PackagePath": "staticwebassets\\img\\7e8e7b17-49d6-4b28-9e8e-3f9378872428.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\8477e05c-8df3-4940-84b1-eddf5d81df03.jpg",
+      "PackagePath": "staticwebassets\\img\\8477e05c-8df3-4940-84b1-eddf5d81df03.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\9181858f-6a5b-4837-a25e-d4d2f2df7e49.jpg",
+      "PackagePath": "staticwebassets\\img\\9181858f-6a5b-4837-a25e-d4d2f2df7e49.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\9197f7ef-3b33-4bb6-8285-c8523584d777.jpg",
+      "PackagePath": "staticwebassets\\img\\9197f7ef-3b33-4bb6-8285-c8523584d777.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\980fe73c-5977-4e96-9cb0-c39a2296c5fb.jpg",
+      "PackagePath": "staticwebassets\\img\\980fe73c-5977-4e96-9cb0-c39a2296c5fb.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\996c3497-97cc-4358-ab2a-5785c65f89de.jpg",
+      "PackagePath": "staticwebassets\\img\\996c3497-97cc-4358-ab2a-5785c65f89de.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\9adec896-39d2-494e-8bdf-19e1fd5c32fe.jpg",
+      "PackagePath": "staticwebassets\\img\\9adec896-39d2-494e-8bdf-19e1fd5c32fe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\9af8f2ab-279c-4cf8-b10f-b3b0daf6ebaf.jpg",
+      "PackagePath": "staticwebassets\\img\\9af8f2ab-279c-4cf8-b10f-b3b0daf6ebaf.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\9cba4f01-1e7c-4860-8b97-27333d4860d4.png",
+      "PackagePath": "staticwebassets\\img\\9cba4f01-1e7c-4860-8b97-27333d4860d4.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\a0a4a567-137a-467c-a573-f3d34e0675e3.jpg",
+      "PackagePath": "staticwebassets\\img\\a0a4a567-137a-467c-a573-f3d34e0675e3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\a56c8072-99a0-44eb-8468-1a280ee1aec3.jpg",
+      "PackagePath": "staticwebassets\\img\\a56c8072-99a0-44eb-8468-1a280ee1aec3.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\abffab7e-5ac5-41d5-8b66-7fef352cb4f5.jpg",
+      "PackagePath": "staticwebassets\\img\\abffab7e-5ac5-41d5-8b66-7fef352cb4f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\ae49bc71-c2b1-4919-b30f-c5a14b8b828b.png",
+      "PackagePath": "staticwebassets\\img\\ae49bc71-c2b1-4919-b30f-c5a14b8b828b.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\af95158b-6d62-4a91-8f7c-f05627629533.png",
+      "PackagePath": "staticwebassets\\img\\af95158b-6d62-4a91-8f7c-f05627629533.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\among.jpg",
+      "PackagePath": "staticwebassets\\img\\among.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\b07be0d3-450a-40cb-8115-e2c3f82f985d.jpg",
+      "PackagePath": "staticwebassets\\img\\b07be0d3-450a-40cb-8115-e2c3f82f985d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\b82ec7c0-a05f-4dfa-ad10-1aa1d1aeb035.jpg",
+      "PackagePath": "staticwebassets\\img\\b82ec7c0-a05f-4dfa-ad10-1aa1d1aeb035.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\b912812a-4902-4446-aeba-40c09dd79ad4.png",
+      "PackagePath": "staticwebassets\\img\\b912812a-4902-4446-aeba-40c09dd79ad4.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\ba4215a0-b0e9-4a7d-a2b2-9d09671ea703.jpg",
+      "PackagePath": "staticwebassets\\img\\ba4215a0-b0e9-4a7d-a2b2-9d09671ea703.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\bd40db25-cc21-4667-b33f-2c48ad9a25de.png",
+      "PackagePath": "staticwebassets\\img\\bd40db25-cc21-4667-b33f-2c48ad9a25de.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\bdbed79f-5162-4bd3-9b78-8fecfe55b904.jpg",
+      "PackagePath": "staticwebassets\\img\\bdbed79f-5162-4bd3-9b78-8fecfe55b904.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\bg.jpg",
+      "PackagePath": "staticwebassets\\img\\bg.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\c61064a2-2de6-4694-9f06-28d4895b00f5.jpg",
+      "PackagePath": "staticwebassets\\img\\c61064a2-2de6-4694-9f06-28d4895b00f5.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\d25bb961-4d2d-4ccc-8e9a-f47c92c47f0b.png",
+      "PackagePath": "staticwebassets\\img\\d25bb961-4d2d-4ccc-8e9a-f47c92c47f0b.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\d2f1f5c1-e9d7-4362-8502-4227608ef86d.jpg",
+      "PackagePath": "staticwebassets\\img\\d2f1f5c1-e9d7-4362-8502-4227608ef86d.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\d9cb2b3b-3e03-417d-8d87-403e0fb098ec.png",
+      "PackagePath": "staticwebassets\\img\\d9cb2b3b-3e03-417d-8d87-403e0fb098ec.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\d9d6be87-c09f-4ba2-b137-9945bfc57c66.jpg",
+      "PackagePath": "staticwebassets\\img\\d9d6be87-c09f-4ba2-b137-9945bfc57c66.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\default.jpg",
+      "PackagePath": "staticwebassets\\img\\default.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\e6b5bdf3-3bfd-4ad0-99bd-d576e3e3df19.jpg",
+      "PackagePath": "staticwebassets\\img\\e6b5bdf3-3bfd-4ad0-99bd-d576e3e3df19.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\ea1f0a58-8455-4b33-823f-f4c02ff43210.png",
+      "PackagePath": "staticwebassets\\img\\ea1f0a58-8455-4b33-823f-f4c02ff43210.png"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\eb08f378-5b9f-45f2-b25f-ca057f54ac0a.jpg",
+      "PackagePath": "staticwebassets\\img\\eb08f378-5b9f-45f2-b25f-ca057f54ac0a.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\efbfd62f-90ff-41d9-a6c6-8c3cfc1e1452.jpg",
+      "PackagePath": "staticwebassets\\img\\efbfd62f-90ff-41d9-a6c6-8c3cfc1e1452.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\fa97a252-472f-466e-af7b-4483aecc573c.jpg",
+      "PackagePath": "staticwebassets\\img\\fa97a252-472f-466e-af7b-4483aecc573c.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\feab3ce2-5e8d-4dc2-843e-b35cb0c960e7.jpg",
+      "PackagePath": "staticwebassets\\img\\feab3ce2-5e8d-4dc2-843e-b35cb0c960e7.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\gradient.jpg",
+      "PackagePath": "staticwebassets\\img\\gradient.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\img\\movie.jpg",
+      "PackagePath": "staticwebassets\\img\\movie.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\Ryuka\\Desktop\\MVC\\.Ryuka Folder\\EF Core\\EFC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.EFC.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.EFC.props",
+      "PackagePath": "build\\EFC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.EFC.props",
+      "PackagePath": "buildMultiTargeting\\EFC.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.EFC.props",
+      "PackagePath": "buildTransitive\\EFC.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

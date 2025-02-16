@@ -1,0 +1,29 @@
+@model EFC.Data.Movie
+@section css {
+    <style>
+        body {
+            color: white;
+            height: 100vh;
+        }
+
+        .vh-custom{
+            height: 40vh;
+
+            }
+    </style>
+}
+
+
+<div class="blurred-bg text-white vh-custom text-center  ">
+    <h1 class="text-light fw-bolder d-inline my-5">
+
+        ~ @Model.MovieTitle ~
+    </h1>
+    <h5 class="my-4 fw-lighter display-4">Silmek istediğinize Emin misiniz ?</h5>
+
+    <form asp-action="Delete" asp-controller="Movie" method="post">
+        <input class="mx-3" type="hidden" asp-for="MovieId">
+        <input type="submit" value="Sil" class="mx-3 px-5 btn btn-warning">
+        <a class="btn btn-dark px-4" asp-action="index">Vazgeç</a>
+    </form>
+</div>

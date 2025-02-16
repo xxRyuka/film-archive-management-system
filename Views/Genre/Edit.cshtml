@@ -1,0 +1,71 @@
+@model EFC.Data.Genre
+
+@section css {
+    <style>
+        body {
+            color: white;
+        }
+    </style>
+}
+
+<div class="text-center fw-bolder shadow">
+    <h2>Edit Genre</h2>
+</div>
+<hr>
+<div class="blurred-bg text-white fw-bold">
+
+    <form asp-action="Edit" method="post">
+
+        <input type="hidden" asp-for="GenreId">
+        <div>
+            <label>Name:</label>
+            <input class="form-control" type="text" asp-for="Name" required />
+        </div>
+
+        <div>
+            <label>Description:</label>
+            <textarea class="form-control" asp-for="Description"></textarea>
+        </div>
+
+
+<div class="row">
+    <div class="col-3">
+        <label>Color:</label>
+        <!-- İki input da aynı model'e (örneğin "Color") bağlanabilir fakat gönderme işlemlerinde çakışmaları önlemek için name/ID ayarlamalarına dikkat edin -->
+        <input id="colorInput" type="color" class="form-control my-1" asp-for="Color" />
+        <input id="textInput" type="text" class="form-control my-1" asp-for="Color" />
+    </div>
+</div>
+
+
+
+
+        <button class="btn btn-success mt-1" type="submit">Save</button>
+
+    </form>
+</div>
+
+@section js{
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var colorInput = document.getElementById('colorInput');
+    var textInput = document.getElementById('textInput');
+
+    // Color input değiştiğinde text input'u güncelle
+    colorInput.addEventListener('input', function() {
+        textInput.value = colorInput.value;
+    });
+
+    // Text input değiştiğinde color input'u güncelle
+    textInput.addEventListener('input', function() {
+        var hex = textInput.value;
+
+        // Basit bir hex kodu kontrolü: '#' ile başlayıp 7 karakter (örneğin: #ff00ff) olmalı
+        if(/^#([0-9A-F]{6}|[0-9A-F]{3})$/i.test(hex)) {
+            colorInput.value = hex;
+        }
+    });
+});
+</script>
+
+} 

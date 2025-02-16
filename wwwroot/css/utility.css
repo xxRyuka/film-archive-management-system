@@ -1,0 +1,65 @@
+.bg-purp {
+    background-color: rgb(52, 14, 81);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-purp:hover {
+    transform: scale(1.045);
+    background-color: rgb(98, 29, 151);
+    opacity: 0.9;
+}
+
+
+.bg-orange {
+    background-color: rgb(239, 149, 14);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-orange:hover {
+    transform: scale(1.045);
+    background-color: rgb(240, 171, 68);
+    opacity: 0.9;
+}
+
+
+.bg-navyblue {
+    background-color: rgb(17, 2, 133);
+    color: white;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.bg-navyblue:hover {
+    transform: scale(1.045);
+    background-color: rgb(79, 64, 189);
+    opacity: 0.9;
+}
+
+.bg-panel {
+    display: inline-block;  /* Transform işlemleri için gerekli */
+    color: white;
+    font-weight: bold;
+    transition: transform 0.3s ease, color 0.3s ease, text-shadow 0.3s ease;
+    position: relative;
+}
+
+/* Hover'da daha belirgin, absürt efekt */
+.bg-panel:hover {
+    transform: scale(1.10) ;
+    color: #ffffff;
+    text-shadow: 3px 3px 10px rgba(88, 87, 87, 0.8);
+}
+
+.category-text{
+    color: white;
+    
+    text-shadow: 
+    -1px -1px 4px rgba(0, 0, 0, 0.39),  
+     1px -1px 4px rgba(0, 0, 0, 0.39),  
+    -1px  1px 4px rgba(0, 0, 0, 0.39),  
+     1px  1px 4px rgba(0, 0, 0, 0.39);
+}

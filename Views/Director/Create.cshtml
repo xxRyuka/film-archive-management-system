@@ -1,0 +1,51 @@
+@model EFC.Data.Director
+
+@section css {
+    <style>
+        body {
+            color: white;
+        }
+    </style>
+}
+
+<div class="text-center fw-bolder shadow">
+    <h2>Add Director</h2>
+</div>
+<hr>
+<div class="blurred-bg text-white fw-bold">
+
+     <div class="text-center">
+            <img src="~/img/default.jpg" class="border-5 shadow  rounded-3"
+            style="max-width: 300px !important;
+            max-height: 300px !important;"
+            
+             alt="img">
+        </div>
+
+    <form asp-action="Create" method="post" enctype="multipart/form-data">
+
+        <div>
+            <label>First Name:</label>
+            <input class="form-control" type="text" asp-for="FirstName" required />
+        </div>
+
+        <div>
+            <label>Last Name:</label>
+            <input class="form-control" type="text" asp-for="LastName" required />
+        </div>
+
+        <div>
+            <label>Bio:</label>
+            <textarea class="form-control" asp-for="Bio"></textarea>
+        </div>
+
+        <div>
+            <label>Actor Resim:</label>
+            <input class="form-control" type="file" name="formImg"></input>
+        </div>
+
+
+        <button class="btn btn-success mt-1" type="submit">Save</button>
+
+    </form>
+</div>

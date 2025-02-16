@@ -1,0 +1,88 @@
+﻿@{
+    ViewData["Title"] = "Privacy Policy";
+}
+
+@section css {
+
+    <style>
+        .privacy-container {
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 150px;
+            padding: 2rem;
+            background: rgb(29, 28, 28);
+            border-radius: 15px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 1);
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .bg-yellow {
+            padding: 0px 15px 0 15px;
+            border-radius: 5px;
+            background-color: rgb(221, 153, 18);
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 6px rgb(0, 0, 0);
+
+        }
+
+        .bg-yellow:hover {
+            transform: scale(1.035);
+            background-color: rgb(255, 142, 0);
+            opacity: 0.9;
+        }
+
+        .border-gradient {
+            border-image: linear-gradient(90deg, #ff6b6b, #4ecdc4);
+            border-image-slice: 1;
+        }
+    </style>
+}
+
+<div class=" container vh-75 d-flex align-items-center justify-content-center my-5 text-white">
+    <div class="privacy-container">
+        <h1 class="b">Privacy Policy</h1>
+        <hr class="text-white">
+        <p>Your privacy is important to us. This policy explains how we collect, use, and protect your personal
+            information.</p>
+
+        <h3>Information We Collect</h3>
+        <p>We may collect information such as your name, email, and usage data when you interact with our site.</p>
+
+        <h3>How We Use Your Information</h3>
+        <p>We use your information to provide and improve our services, communicate with you, and ensure a secure
+            experience.</p>
+
+        <h3>Data Protection</h3>
+        <p>We implement security measures to protect your data from unauthorized access, disclosure, or misuse.</p>
+        <div class="row">
+            <div class="col-5">
+                <hr class="my-2 border-2 border-gradient">
+            </div>
+
+            <div class="col-2 text-center">
+                @* <i class="fas fa-circle-notch fa-spin text-info"></i> *@
+                ✦
+            </div>
+
+            <div class="col-5">
+                <hr class="my-2 border-2 border-gradient">
+            </div>
+        </div>
+
+
+        <div class="my-5 text-center ">
+            <h3 class="mt-5">
+                <a class="btn bg-yellow p-3 px-4 fw-bolder">
+                    Contact Us
+                </a>
+            </h3>
+        </div>
+    </div>
+</div>

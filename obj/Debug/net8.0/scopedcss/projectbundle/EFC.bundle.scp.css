@@ -1,0 +1,140 @@
+/* _content/EFC/Views/Shared/_Layout.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-2izeusiy8d] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-2izeusiy8d] {
+  color: #0077cc;
+}
+
+.btn-primary[b-2izeusiy8d] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-2izeusiy8d],
+.nav-pills .show>.nav-link[b-2izeusiy8d] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-2izeusiy8d] {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-2izeusiy8d] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-2izeusiy8d] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-2izeusiy8d] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-2izeusiy8d] {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  white-space: nowrap !important;
+  line-height: 60px !important;
+}
+
+
+/* _content/EFC/Views/Shared/_Layout2.cshtml.rz.scp.css */
+/* Please see documentation at https://learn.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand[b-xrnxl4earq] {
+  white-space: normal;
+  text-align: center;
+  word-break: break-all;
+}
+
+a[b-xrnxl4earq] {
+  color: #0077cc;
+}
+
+.btn-primary[b-xrnxl4earq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active[b-xrnxl4earq],
+.nav-pills .show>.nav-link[b-xrnxl4earq] {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.border-top[b-xrnxl4earq] {
+  border-top: 1px solid #e5e5e5;
+}
+
+.border-bottom[b-xrnxl4earq] {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow[b-xrnxl4earq] {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy[b-xrnxl4earq] {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+.footer[b-xrnxl4earq] {
+  position: absolute !important;
+  bottom: 0 !important;
+  width: 100% !important;
+  white-space: nowrap !important;
+  line-height: 60px !important;
+}
+
+.scrollable[b-xrnxl4earq]{
+  
+    max-height: 100vh;
+    overflow-y: auto;
+  
+  
+}
+
+
+
+.gradient-1[b-xrnxl4earq] {
+  background: rgb(45, 5, 93);
+  background: linear-gradient(90deg, rgba(45, 5, 93, 1) 0%, rgba(96, 21, 192, 1) 44%, rgba(108, 52, 224, 1) 63%, rgba(8, 138, 164, 1) 100%);
+}
+
+.gradient-2[b-xrnxl4earq] {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+}
+
+.gradient-3[b-xrnxl4earq] {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+  transition: all .5s ease-in-out;
+}
+
+.gradient-4[b-xrnxl4earq]{
+  background: rgb(238,174,202);
+  background: linear-gradient(198deg, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); 
+}
+
+.gradient-5[b-xrnxl4earq]{
+  background: rgb(2,18,102);
+  background: linear-gradient(33deg, rgba(2,18,102,1) 0%, rgba(62,9,144,1) 26%, rgba(100,3,134,1) 50%, rgba(115,4,97,1) 72%, rgba(124,4,28,1) 100%); 
+}

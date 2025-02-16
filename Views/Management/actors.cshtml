@@ -1,0 +1,103 @@
+@model IEnumerable<EFC.Data.Actor>
+
+@{
+    Layout = "_Layout2";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/utility.css " asp-append-version="true">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+}
+<div class="">
+
+    <div class="text-center mt-5">
+
+        <a class="btn bg-purp px-5 py-3" asp-controller="Actor" asp-action="create">Add Actor</a>
+    </div>
+  <div class="container pt-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+            <form asp-controller="Management" asp-action="actors" method="get">
+                <div class="card bg-transparent shadow-sm">
+                    <div class="card-body p-4">
+                        <div class="row g-3 align-items-center">
+                            <!-- Input Alanı -->
+                            <div class="col-12 col-md-8">
+                                <label for="searchInput" class="form-label visually-hidden ">Arama Yap</label>
+                                <input 
+                                    type="text" 
+                                    class="form-control form-control-lg border-2 border-dark " 
+                                    id="searchInput"
+                                    name="searchString"
+                                    value="@ViewBag.search"
+                                    placeholder="Arama yapın...">
+                            </div>
+                            
+                            <!-- Buton -->
+                            <div class="col-12 col-md-4 d-grid">
+                                <button type="submit" class="btn btn-dark shadow border-2 border-light btn-lg">
+                                    <i class="bi bi-search me-2"></i>Ara
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+    <div class="container text-white p-5">
+        <table class="table fw-bold table-active ">
+            <thead class="text-white">
+                <tr>
+                    <th style="width: 80px;" scope="col">id</th>
+                    <th style="width: 80px;" scope="col">IMG</th>
+                    <th style="width: 120px;" scope="col">First</th>
+                    <th style="width: 120px;" scope="col">Last</th>
+                    <th style="width: 350px;" scope="col">Movies</th>
+                    <th style="width: 200px;" scope="col">Actions</th>
+                </tr>
+            </thead>
+            <tbody class="text-white">
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <th scope="row">@item.ActorId</th>
+                        <th>
+                            <div style="width: 150px; height: 150px; overflow: hidden;">
+                                <img src="~/img/@item.ActorImg" alt="actor image" class="img-fluid"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+
+                        </th>
+                        <td>@item.FirstName</td>
+                        <td>@item.LastName</td>
+                        <div>
+                            <td>
+                                @foreach (var movie in item.Movies)
+                                {
+                                    @* kategorilere custom color ekle *@
+                                    <span class="badge bg-gradient bg-purp ">
+                                        <a asp-controller="Movie" asp-action="edit" asp-route-id="@movie.Movie.MovieId"
+                                            class="text-decoration-none text-white">
+                                            @movie.Movie.MovieTitle
+                                        </a>
+                                    </span>
+                                }
+                                <span class="badge bg-orange bg-gradient">
+                                    movie.Movie.MovieTitle
+                                </span>
+                            </td>
+                        </div>
+                        <td>
+                            <a asp-controller="Actor" asp-action="Edit" class="btn bg-navyblue p-1 mx-2"
+                                asp-route-id="@item.ActorId">Details</a>
+                            <a asp-controller="Actor" asp-action="Delete" class="btn btn-danger p-1"
+                                asp-route-id="@item.ActorId">Delete</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

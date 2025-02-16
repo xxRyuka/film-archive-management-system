@@ -1,0 +1,198 @@
+@{
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+    ViewData["Title"] = "Management";
+}
+
+@section css {
+    <link rel="stylesheet" href="~/css/utility.css" asp-append-version="true">
+    <style>
+    /* Arka plan container'ı için modern gradient ve hafif gölge */
+    .blurred-bg-3 {
+        position: relative;
+        background: linear-gradient(135deg, #2a5298,#7417c6, #9912e8);
+        border-radius: 15px;
+        padding: 2rem;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+        overflow: hidden;
+    }
+    
+    /* Dinamik arka plan efekti için dönen radial gradient */
+    .blurred-bg-3::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255,255,255,0.5) 0%, transparent 70%);
+        animation: rotateBg 10s linear infinite;
+        
+    }
+    
+
+    
+.fancy-text {
+    position: relative;
+    z-index: 2; 
+    font-family: 'Poppins', sans-serif;
+    color: #fff;
+    text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.5);
+    
+}
+    
+    .fancy-text h2 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+        border-bottom: 2px solid rgba(255,255,255,0.3);
+        padding-bottom: 0.5rem;
+    }
+    
+    .fancy-text ul {
+        list-style: none;
+        padding: 0;
+    }
+    
+    .fancy-text li {
+        font-size: 1.2rem;
+        margin-bottom: 0.5rem;
+        padding: 0.5rem 1rem;
+        background: rgba(255,255,255,0.1);
+        border-radius: 8px;
+        transition: all 0.3s ease, transform 0.3s ease;
+    }
+    
+    .fancy-text li:hover {
+        background: rgba(255,255,255,0.2);
+        transform: scale(1.02);
+    }
+    </style>
+}
+
+
+
+<div class="container mt-4 canvas">
+    <h1>Genel İstatistikler</h1>
+    <!-- Grafik Alanları -->
+    <div class="row mt-5">
+        <!-- Bar Chart -->
+        <div class="col-md-6 mb-4">
+            <canvas id="barChart"></canvas>
+        </div>
+
+        <!-- Pie Chart -->
+        <div class="col-md-6 mb-4">
+            <canvas id="pieChart"></canvas>
+        </div>
+    </div>
+</div>
+
+<!-- ViewBag verilerini metin olarak gösteren alan -->
+<div class="container mt-4">
+    <div class="blurred-bg-3 p-3">
+        <h2 class="fancy-text"></h2>
+        <ul class="fancy-text">
+            <li class="list-unstyled">Actors: @ViewBag.Actor</li>
+            <li class="list-unstyled">Directors: @ViewBag.Director</li>
+            <li class="list-unstyled">Genres: @ViewBag.Genre</li>
+            <li class="list-unstyled">Movies: @ViewBag.Movie</li>
+        </ul>
+    </div>
+</div>
+
+@section Scripts {
+    <!-- Chart.js Kütüphanesi -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script>
+        // Bar Chart Tanımlaması
+        var ctxBar = document.getElementById('barChart').getContext('2d');
+        var barChart = new Chart(ctxBar, {
+            type: 'bar',
+            data: {
+                labels: ['Actors', 'Directors', 'Genres', 'Movies'],
+                datasets: [{
+                    label: 'Count',
+                    data: [
+                        @ViewBag.Actor,
+                        @ViewBag.Director,
+                        @ViewBag.Genre,
+                        @ViewBag.Movie
+                    ],
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.25)',
+                        'rgba(255, 159, 64, 0.25)',
+                        'rgba(153, 102, 255, 0.25)',
+                        'rgba(255, 205, 86, 0.25)'
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 205, 86, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            color: 'white' // Yatay eksen üzerindeki sayıların rengi
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: 'white' // Dikey eksen üzerindeki etiketlerin rengi
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: 'white' // Legend yazılarının rengi
+                        }
+                    }
+                }
+            }
+        });
+
+        // Pie Chart Tanımlaması
+        var ctxPie = document.getElementById('pieChart').getContext('2d');
+        var pieChart = new Chart(ctxPie, {
+            type: 'pie',
+            data: {
+                labels: ['Actors', 'Directors', 'Genres', 'Movies'],
+                datasets: [{
+                    data: [
+                        @ViewBag.Actor,
+                        @ViewBag.Director,
+                        @ViewBag.Genre,
+                        @ViewBag.Movie
+                    ],
+                    backgroundColor: [
+                        'rgba(75, 192, 192, 0.25)',
+                        'rgba(255, 159, 64, 0.25)',
+                        'rgba(153, 102, 255, 0.25)',
+                        'rgba(255, 205, 86, 0.25)'
+                    ],
+                    borderColor: [
+                        'rgba(75, 192, 192, 1)',
+                        'rgba(255, 159, 64, 1)',
+                        'rgba(153, 102, 255, 1)',
+                        'rgba(255, 205, 86, 1)'
+                    ],
+                    borderWidth: 1
+                }]
+            },
+            options: {
+                plugins: {
+                    legend: {
+                        labels: {
+                            color: 'white' // Pie chart legend yazılarının rengi
+                        }
+                    }
+                }
+            }
+        });
+    </script>
+}

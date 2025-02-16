@@ -1,0 +1,90 @@
+@model EFC.Data.CreateMovieDTO
+
+
+
+<div class="text-center fw-bolder shadow">
+    <h2>
+
+    Edit Movie
+    </h2>
+</div>
+<hr>
+<div class="blurred-bg text-white fw-bold">
+
+    <div class="text-center">
+        <img src="~/img/@Model.MovieImg" class="border-5 shadow  rounded-3" style="max-width: 300px !important;
+            max-height: 300px !important;" alt="img">
+    </div>
+
+    <form asp-action="Edit" method="post" enctype="multipart/form-data">
+
+        <input type="hidden" asp-for="MovieId" >
+
+        <div>
+            <label>Film Adı:</label>
+            <input class="form-control" type="text" asp-for="MovieTitle" required />
+        </div>
+
+        <div>
+            <label>Açıklama:</label>
+            <input class="form-control" type="text" asp-for="Description" required></input>
+        </div>
+
+        <div>
+            <label>Yayın Tarihi:</label>
+            <input class="form-control" type="date" asp-for="ReleaseDate" required />
+        </div>
+
+        <div>
+            <label>Yönetmen Seç:</label>
+            <select class="form-select" asp-for="DirectorId" asp-items="ViewBag.Directors" required>
+                <option value="">Yönetmen Seç</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Oyuncular:</label>
+            <select id="actorSelect" class="form-select " asp-for="ActorIds" asp-items="ViewBag.Actors" multiple
+                required>
+
+
+            </select>
+        </div>
+
+        <div>
+            <label>Türler:</label>
+            <select id="genreSelect" class="form-select" asp-for="GenreIds" asp-items="ViewBag.genres" multiple
+                required>
+
+            </select>
+        </div>
+
+        <div>
+            <label>Resim:</label>
+            <input class="form-control" type="file" value="@Model.MovieImg" name="formImg"></input>
+        </div>
+
+        <button class="btn btn-success mt-1" type="submit">Kaydet</button>
+
+    </form>
+
+</div>
+
+@section js {
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            new TomSelect("#genreSelect", {
+                plugins: ['remove_button'], // Seçenekleri kaldırma butonu ekler
+                maxItems: 15, // Maksimum 5 seçim yapılabilir
+                create: false
+            });
+
+            new TomSelect("#actorSelect", {
+                plugins: ['remove_button'], // Seçenekleri kaldırma butonu ekler
+                maxItems: 15, // Maksimum 5 seçim yapılabilir
+                create: false
+            });
+
+        });
+    </script>
+}

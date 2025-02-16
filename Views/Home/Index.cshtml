@@ -1,0 +1,84 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section css {
+    <style>
+        .vh-75 {
+            height: 75vh;
+            width: 100%;
+        }
+
+        .vh-75 h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+
+
+        .bg-purp {
+            padding: 0px 15px 0 15px;
+            border-radius: 5px;
+            background-color: rgb(133, 18, 221);
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .bg-purp:hover {
+            transform: scale(1.045);
+            background-color: rgb(137, 63, 194);
+            opacity: 0.9;
+        }
+
+        .bg-yellow {
+            padding: 0px 15px 0 15px;
+            border-radius: 5px;
+            background-color: rgb(221, 153, 18);
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .bg-yellow:hover {
+            transform: scale(1.045);
+            background-color: rgb(255, 132, 0);
+            opacity: 0.9;
+        }
+
+        .gradient-1 {
+            background: rgb(45, 5, 93);
+            background: linear-gradient(90deg, rgba(45, 5, 93, 1) 0%, rgba(96, 21, 192, 1) 44%, rgba(108, 52, 224, 1) 63%, rgba(8, 138, 164, 1) 100%);
+        }
+
+        .gradient-2 {
+            background: rgb(34, 193, 195);
+            background: linear-gradient(90deg, rgba(34, 193, 195, 1) 0%, rgba(253, 187, 45, 1) 100%);
+        }
+
+        .gradient-3 {
+            background: rgb(131, 58, 180);
+            background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+            transition: all .5s ease-in-out;
+        }
+
+
+    </style>
+}
+<div class="text-center blurred-bg vh-75 align-content-center">
+
+
+
+    <h1 class="font-monospace bg-purp d-inline px-5 py-1 rounded-pill bg-dark gradient-3 shadow ">
+        <span class="text-warnisng"> M -</span>
+        <span class="text-light"> A -</span>
+        <span class="text-wasrning"> M -</span>
+        <span class="text-light"> S </span>
+    </h1>
+    <div class="my-4">
+
+        <hr class="text-white " style="border-top-left-radius: 15px;">
+        @* <h1 class="display-4 text-white fw-bolder">Welcome To</h1> *@
+        <h1 class="text-white fw-bold">Movie <span class="gradient-1 bg-purp">Archive</span> Management <span
+                class="text-decoration-line-through gradient-2 bg-yellow">System</span></h1>
+    </div>
+</div>

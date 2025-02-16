@@ -1,0 +1,139 @@
+@model List<EFC.Data.Movie>
+
+@section css {
+    <link rel="stylesheet" href="~/css/utility.css " asp-append-version="true">
+
+    <style>
+        .bg-purp {
+            background-color: rgb(52, 14, 81);
+            color: white;
+            font-weight: bold;
+            transition: all 0.3s ease-in-out;
+        }
+
+        .bg-purp:hover {
+            transform: scale(1.045);
+            background-color: rgb(98, 29, 151);
+            opacity: 0.9;
+        }
+
+        .movie-card {
+            min-height: 450px;
+            /* Kartların eşit boyutlu olması için */
+            overflow: ;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            border-radius: 20px;
+        }
+
+        .movie-img {
+            height: 200px;
+            object-fit: cover;
+            border-radius: 20px;
+        }
+
+        .card-body {
+            flex-grow: 1;
+        }
+    </style>
+}
+
+<form asp-action="index" method="get" class="">
+    <div class="row w ">
+
+        <div class="col-12  d-flex flex-row ">
+            <div class="row  w-100">
+                <div class="col-2">
+
+                    <select class="mx-3 form-select" name="filter" asp-items="ViewBag.genres">
+                        @if (ViewBag.result == "All")
+                        {
+                        }
+                        else
+                        {
+                            <option value="">All</option>
+                        }
+                        <option hidden selected value=""> @ViewBag.result</option>
+
+
+                    </select>
+                </div>
+
+                <div class="col-5">
+                    <input type="text" class="form-control" value="@ViewBag.search" name="searchString">
+
+                </div>
+                <div class="col-1">
+
+                    <input type="submit" class="btn-light btn" value="Search">
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</form>
+
+
+<hr class="bg-white">
+
+<div class="container blurred-bg">
+    <div class="row row-cols-1 row-cols-md-4 h-100 g-4">
+        @foreach (var item in Model)
+        {
+            <div class="col">
+                <div class="card shadow-sm movie-card bg-purp">
+                    @if (item.MovieImg != null)
+                    {
+                        <img src="/img/@item.MovieImg" class="card-img-top movie-img" alt="No Image">
+                    }
+                    else
+                    {
+                        <img src="/img/1.jpg" class="card-img-top movie-img" alt="No Isamage">
+                    }
+
+
+
+                    <div class="card-body">
+                        <h5 class="card-title">@item.MovieTitle</h5>
+
+                        <hr class="bg-white ">
+
+
+                        <p class="card-text ">
+                            <strong>Yayın Tarihi:</strong> @(item.ReleaseDate?.ToString("dd.MM.yyyy") ?? "Bilinmiyor") <br>
+                            <strong>Yönetmen : </strong> @item.Director.FullName
+                        </p>
+
+                        <div>
+                            <span class="badge p-2 bg-black text-white">Genres</span>
+                            <div class="mt-1">
+                                @foreach (var i in item.Genres)
+                                {
+                                    <span style="background-color: @i.Genre.Color;"
+                                        class="badge  category-text ">@i.Genre.Name</span>
+                                }
+                            </div>
+                        </div>
+                        <div class="mt-2">
+                            <span class="badge bg-light text-dark">Actors</span>
+                            <div class="mt-1">
+                                @foreach (var x in item.Actors)
+                                {
+                                    <span class="badge bg-warning text-white">@x.Actor.FullName</span>
+                                }
+                            </div>
+                        </div>
+                    </div>
+                    <hr class="bg-white">
+                    @* <div class="card-footer border-0 text-center">
+                        <a asp-action="edit" asp-route-id="@item.MovieId" class="btn btn-info btn-sm">Edit</a>
+                        <a asp-action="delete" asp-route-id="@item.MovieId" class="btn btn-danger btn-sm">Delete</a>
+                    </div> *@
+                </div>
+            </div>
+        }
+    </div>
+</div>

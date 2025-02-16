@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - EFC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/EFC.styles.css" asp-append-version="true" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/css/tom-select.bootstrap5.min.css">
+    @await RenderSectionAsync("css", false)
+    
+    @section css {
+        <link rel="stylesheet" href="~/css/utility.css " asp-append-version="true">
+    }   
+    <style>
+
+        
+
+        body{color: white;}
+        
+        .vh-75{
+            height: 65vh;
+            width: 100%;
+        }
+
+.bg-main {
+    background-image: url(/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    width: 100%;
+    background-attachment: fixed; /* Arka plan sabit kalır */
+}
+
+
+.blurred-bg {
+    position: relative;
+    height: 100vh;
+    overflow-y: auto; /* İçeriği kaydırılabilir yap */
+    padding: 20px;
+}
+
+.blurred-bg::before {
+    content: '';
+    position: fixed; /* Sayfa aşağı kayınca da blur kalır */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    backdrop-filter: blur(10px);
+    filter: blur(10px);
+    z-index: -1;
+}
+
+
+
+                        .blurred-bg-2 {
+            position: relative;
+            /* Pseudo-element için gerekli */
+            @* padding: 2rem; *@
+            color: black;
+            border-radius: 50px;
+            /* Yazılar için katman ayarı */
+            z-index: 1;
+        }
+
+        /* Arka plan blur efekti */
+        .blurred-bg-2::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+                        @* border-radius: 150px; *@
+
+            background: rgba(48, 46, 46, 0.5);  
+            /* Yarı saydam beyaz */
+            backdrop-filter: blur(12px);
+            /* Modern tarayıcılar için */
+            /* Fallback (Eski tarayıcılar için) */
+            filter: blur(11px);
+            z-index: -1;
+            /* Yazıların altında kalmasını sağlar */
+        }
+    </style>
+</head>
+
+<body class="bg-main">
+   <header>
+    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-dark bg-dark border-bottom box-shadow mb-3">
+        <div class="container-fluid">
+            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">
+                <i class="fa-solid fa-clapperboard fa-2x"></i>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                <ul class="navbar-nav flex-grow-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Movie" asp-action="Index">Movie</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white fw-bold" asp-area="" asp-controller="Management" asp-action="Index">Management</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+
+
+    <div class="mx-1 ">
+    <div class="row vh-100">
+        <div class="col-2 border-end border-3 shadow blurred-bg-2">
+            <div class="p-3">
+                <h5 class="fw-bold text-white shadow my-3 text-center" >
+                                    <a class="text-decoration-none bg-panel text-center " asp-controller="Management" asp-action="index">Management Panel
+</a>
+
+
+                </h5>
+                <hr class="text-white mt-4">
+                <div class="text-center my-4">
+                    <h5 class="fw-bold text-white  "> 
+                    <a class="text-decoration-none bg-panel " asp-controller="Management" asp-action="Actors">Actors</a>
+
+                        
+                    </h5>
+                </div>
+<hr class="text-white">
+                
+                <div class="text-center my-4">
+                    <h5 class="fw-bold text-white  "> 
+                                              <a class="text-decoration-none text-light bg-panel " asp-controller="Management" asp-action="Directors">Directors</a>
+
+                        
+                    </h5>
+                </div>
+
+                <hr class="text-white">
+
+                <div class="text-center my-4">
+                    <h5 class="fw-bold text-white  "> 
+                                              <a class="text-decoration-none text-light bg-panel " asp-controller="Management" asp-action="Genres">Genres</a>
+
+                        
+                    </h5>
+                </div>
+
+                <hr class="text-white">
+
+                <div class="text-center my-4">
+                    <h5 class="fw-bold text-white  "> 
+                      <a class="text-decoration-none text-light text-decoration-none text-light bg-panel " asp-controller="Management" asp-action="Movies">Movie</a>
+                    </h5>
+                </div>
+                <hr class="text-white">
+                
+                <div class="footer ">
+                    <p class="text-white gradient-5  mb-5 d-inline-block fw-bold py-0 px-2 rounded-pill shadow ">created by Ryuka</p>
+                </div>
+            </div>
+        </div>
+        
+
+        <div class="blurred-bg col-10 scrollable">
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+
+    <footer class="border-top footer text-muted bg-light">
+        <div class="container">
+            &copy; 2025 - EFC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+
+    @await RenderSectionAsync("js", false)
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tom-select@2.2.2/dist/js/tom-select.complete.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+
+</html>

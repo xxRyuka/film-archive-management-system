@@ -1,0 +1,109 @@
+@model IEnumerable<EFC.Data.Movie>
+
+@{
+    Layout = "_Layout2";
+}
+@section css {
+    <link rel="stylesheet" href="~/css/utility.css " asp-append-version="true">
+}
+<div class="text-center mt-5">
+
+    <a class="btn bg-purp px-5 py-3" asp-controller="Movie" asp-action="create">Add Movie</a>
+</div>
+
+
+ <div class="container pt-4">
+    <div class="row justify-content-center">
+        <div class="col-12 col-md-10 col-lg-8">
+            <form asp-controller="Management" asp-action="movies" method="get">
+                <div class="card bg-transparent shadow-sm">
+                    <div class="card-body p-4">
+                        <div class="row g-3 align-items-center">
+                            <!-- Input Alanı -->
+                            <div class="col-12 col-md-8">
+                                <label for="searchInput" class="form-label visually-hidden ">Arama Yap</label>
+                                <input 
+                                    type="text" 
+                                    class="form-control form-control-lg border-2 border-dark" 
+                                    id="searchInput"
+                                    name="searchString"
+                                    value="@ViewBag.search"
+                                    placeholder="Arama yapın...">
+                            </div>
+                            
+                            <!-- Buton -->
+                            <div class="col-12 col-md-4 d-grid">
+                                <button type="submit" class="btn btn-dark shadow border-2 border-light btn-lg">
+                                    <i class="bi bi-search me-2"></i>Ara
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+<div class="container text-white p-5">
+    <table class="table table-active fw-bold ">
+        <thead class="text-white text-center ">
+            <tr class="">
+                <th style="width: 80px;" scope="col">id</th>
+                <th style="width: 200px;" scope="col">Img</th>
+                <th style="width: 80px;" scope="col">Name</th>
+                <th style="width: 120px;" scope="col">Director</th>
+                <th style="width: 200px;" scope="col">Genres</th>
+                <th style="width: 200px;" scope="col">Actions</th>
+            </tr>
+        </thead>
+        <tbody class="text-white text-center">
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <th scope="row">@item.MovieId</th>
+
+                    @if(@item.MovieImg == null)
+                    {
+                        <th>
+                            <div style="width: 150px; height: 150px; overflow: hidden;">
+                                <img src="~/img/1.jpg" alt="movie image" class="img-fluid"
+                                    style="width: 100%; height: 100%; object-fit: cover;">
+                            </div>
+                        </th>
+                    }
+                    else
+                    {
+            
+                    <th>
+                        <div style="width: 150px; height: 150px; overflow: hidden;">
+                            <img src="~/img/@item.MovieImg" alt="movie image" class="img-fluid"
+                                style="width: 100%; height: 100%; object-fit: cover;">
+                        </div>
+
+                    </th>
+                    }
+                    <td>@item.MovieTitle</td>
+                    <td>@item.Director.FullName</td>
+                    <td>
+                        <div>
+                            @foreach (var genre in item.Genres)
+                            {
+                                <span style="background-color: @genre.Genre.Color;"
+                                    class="category-text badge">@genre.Genre.Name</span>
+                            }
+                        </div>
+                    </td>
+
+                    <td>
+                        <a asp-controller="Movie" asp-action="Edit" class="btn bg-navyblue p-1 mx-2"
+                            asp-route-id="@item.MovieId">Details</a>
+                        <a asp-controller="Movie" asp-action="Delete" class="btn btn-danger p-1"
+                            asp-route-id="@item.MovieId">Delete</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
