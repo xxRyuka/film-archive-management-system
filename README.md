@@ -1,4 +1,7 @@
-﻿# film-archive-management-system
+
+ # film-archive-management-system
+
+```mermaid
 erDiagram
     MOVIE {
         int ID PK
