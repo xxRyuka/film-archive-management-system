@@ -79,7 +79,6 @@ namespace EFC.Data
        modelBuilder.Entity<Actor>().HasData(
            new Actor { ActorId = 1, FirstName = "Leonardo", LastName = "DiCaprio" },
            new Actor { ActorId = 2, FirstName = "Brad", LastName = "Pitt" },
-           new Actor { ActorId = 3, FirstName = "Samet", LastName = "Yarrakoğlu" },
            new Actor { ActorId = 4, FirstName = "Yusuf", LastName = "Uzun" },
            new Actor { ActorId = 5, FirstName = "Murat", LastName = "Karayilan" }
 
